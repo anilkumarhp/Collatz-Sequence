@@ -13,7 +13,7 @@ def collatz(number):
 # Ask user to enter a integer value.
 while True:
     try:
-        num = int(input("Enter an integer value: "))
+        num = int(input("Enter an integer value greater than 1: "))
         break
     except ValueError: # if entered value is not an integer.
         print("Please only integer(number) value")
